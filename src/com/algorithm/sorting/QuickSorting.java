@@ -3,7 +3,6 @@ package com.algorithm.sorting;
 public class QuickSorting {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		QuickSorting obj1 = new QuickSorting();
 		int arr[] = {12,11,13,3,2,90,7,6,1,8,9};
 		int low = 0;
@@ -43,7 +42,7 @@ public class QuickSorting {
 	}
 	
 	
-	public int MergePartitionPart(int arr[],int low,int high){
+	public int mergePartitionPart(int arr[],int low,int high){
 		int pivot = arr[low];
 		int i = low;
 		int j = high;

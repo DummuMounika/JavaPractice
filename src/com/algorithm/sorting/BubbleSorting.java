@@ -5,7 +5,7 @@ public class BubbleSorting {
 	public static void main(String[] args) {
 		BubbleSorting obj1 = new BubbleSorting();
 		int arr[] = {7,9,5,8,1};
-		int result[] = obj1.BubbleSortingIterative(arr);
+		int result[] = obj1.bubbleSortingIterative(arr);
 		
 		//System.out.println(result);
 		
@@ -16,7 +16,7 @@ public class BubbleSorting {
 
 	}
 	
-	public  int[] BubbleSortingIterative(int arr[]) {
+	public  int[] bubbleSortingIterative(int arr[]) {
 		for (int i=0;i < arr.length-1;i++) {
 			for (int j=0;j <(arr.length-i-1);j++) {
 				if (arr[j] > arr[j+1]) {

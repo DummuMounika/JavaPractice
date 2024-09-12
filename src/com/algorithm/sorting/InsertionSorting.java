@@ -3,10 +3,9 @@ package com.algorithm.sorting;
 public class InsertionSorting {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		InsertionSorting obj1 = new InsertionSorting();
 		int arr[] = {9,1,4,6,7};
-		int result[] = obj1.InsertionSortingIterative(arr);
+		int result[] = obj1.insertionSortingIterative(arr);
 		
 		System.out.println("Sorted array: ");
 		for (int i=0;i < result.length; i++) {
@@ -15,7 +14,7 @@ public class InsertionSorting {
 
 	}
 	
-	public int[] InsertionSortingIterative(int arr[]) {
+	public int[] insertionSortingIterative(int arr[]) {
 		for (int i=1;i<arr.length;i++) {
 			int current = arr[i];
 			int j = i-1;

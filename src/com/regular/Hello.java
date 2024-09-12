@@ -3,7 +3,6 @@ package com.regular;
 public class Hello {
 
 	public static void main(String a[]) {
-		// TODO Auto-generated method stub
 		int num1 = 3;
 		int num2 = 7;
 		
